@@ -5,6 +5,7 @@
 </script>
 
 <template>
+<div class="md:container md:mx-auto">
   <h1 class="text-3xl font-bold underline">
     Hello world!
   </h1>
@@ -14,6 +15,13 @@
   <button class="bg-sky-600 dark:bg-sky-900 hover:bg-sky-700 ...">
     Save changes
   </button>
+  <div class="columns-4">
+    <p>Well, let me tell you something, ...</p>
+    <p class="break-after-column">Sure, go ahead, laugh...</p>
+    <p>Maybe we can live without...</p>
+    <p>Look. If you think this is...</p>
+  </div>
+</div>
 </template>
 
 <style>
