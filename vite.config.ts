@@ -7,7 +7,7 @@ export default defineConfig({
   // root: process.cwd(),
   root: './src/pages/',
   // 项目部署的基础路径
-  base: '/',
+  base: false ? '/' : '/scaffold/',
   publicDir: 'public',
   resolve: {
     alias: {
