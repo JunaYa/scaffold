@@ -6,6 +6,7 @@
 
 <template>
 <div class="md:container md:mx-auto">
+  <img src="../../assets/logo.png" alt="logo" class="mx-auto md:mx-0">
   <h1 class="text-3xl font-bold underline">
     Hello world!
   </h1>
